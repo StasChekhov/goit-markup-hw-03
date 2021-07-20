@@ -2,6 +2,10 @@ body {
   font-family: Roboto;
   color: #212121;
 }
+ul {
+  padding: 0;
+  margin: 0;
+}
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -236,6 +240,7 @@ body {
   display: flex;
   justify-content: center;
   margin-right: 10px;
+  margin-bottom: 50px;
 }
 .list-section .item:not(:last-child) {
   margin-right: 8px;
@@ -246,11 +251,15 @@ body {
   flex-wrap: wrap;
   padding: 0px;
 }
-.list-portfolio :not(:nth-child(3n)) {
-  margin-right: 10px;
+.list-portfolio li:not(:nth-child(3n)) {
+  margin-right: 26px;
 }
 .porfolio-headers {
   font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 .list-text {
   font-size: 16px;
@@ -258,6 +267,11 @@ body {
   font-weight: normal;
   color: #757575;
 }
+
+.cards-content {
+  padding: 20px 24px;
+}
+
 /* buttons */
 .button-porfolio {
   display: block;
