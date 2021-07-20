@@ -7,10 +7,12 @@
     <title>WebStudio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="container">
+    <header class="header">
+        <div class="container">
         <nav class="menu">
             <a href="./index.html" class="logo"><span class="logo-color">Web<span class="header-logo">Studio</span></a>
             <ul class="header-links">
@@ -23,15 +25,17 @@
                 <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
         </nav>
+        </div>
     </header>
-    <main class="container"> 
-        <section>
+    <main> 
+        <section class="section-porfolio">
+            <div class="container">
         <ul class="list-section">
-            <li><button type="button">Все</button></li>
-            <li><button type="button">Веб-сайты</button></li>
-            <li><button type="button">Приложения</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+            <li><button type="button" class="button-porfolio">Все</button></li>
+            <li><button type="button" class="button-porfolio">Веб-сайты</button></li>
+            <li><button type="button" class="button-porfolio">Приложения</button></li>
+            <li><button type="button" class="button-porfolio">Дизайн</button></li>
+            <li><button type="button" class="button-porfolio">Маркетинг</button></li>
         </ul>
         <ul class="list-portfolio">
                 <li>
@@ -80,11 +84,13 @@
                         <p class="list-text">Приложение</p>
                 </li>
             </ul>
+            </div>
         </section>
 
     </main>
-    <div class="container">
+
     <footer class="footer">
+        <div class="container">
         <a href="#" class="footer-logo">Web<span class="footer-logo1">Studio</span></a> 
         <address>
             <ul class="footer-list">
@@ -93,6 +99,7 @@
                 <li><a href="tel:+380991111111" class="phone">+38 099 111 11 11</a></li>
             </ul>
         </address>
+        </div>
     </footer>
     </div>
 </body>
